@@ -1,15 +1,15 @@
 # Core ML
-tensorflow-cpu==2.15.1
+tensorflow-cpu==2.16.2
 keras>=2.13.0
-numpy>=1.24.0
+numpy>=1.26.4
 scikit-learn>=1.3.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 opencv-python>=4.8.0
-Pillow>=10.0.0
+Pillow>=10.3.0
 pandas>=2.0.0
-
+opencv-python-headless==4.9.0.80
 # API
-fastapi>=0.103.0
-uvicorn[standard]>=0.23.0
-python-multipart>=0.0.6
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
